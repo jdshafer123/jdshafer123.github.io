@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html>
 <head>
   <meta charset="utf-8">
   <title>Flappy Monster Game Project</title>
-  <link href="css/style.css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -16,3 +16,19 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+FlappyMonster.prototype.runGameLoop = function() {
+   // Base
+  var game = this;
+  
+ switch (game.currentState) {
+    case INITIAL:
