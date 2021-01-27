@@ -1,9 +1,9 @@
-
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Flappy Monster Game Project</title>
-<link href="style.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -12,23 +12,15 @@
   <script src="util.js"></script>
   <script src="canvas-script.js"></script>
   <script src="flappy-monster.js"></script>
+  <script src="util.js"></script>
+ <script src="canvas-script.js"></script>
+ <script src="flappy-monster.js"></script>
+ <script src="game-background.js"></script> 
+ <script src="game-score.js"></script> 
+ <script src="wall-factory.js"></script>
+ <script src="wall.js"></script>
+ <script src="monster.js"></script>
 
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-FlappyMonster.prototype.runGameLoop = function() {
-   // Base
-  var game = this;
-  
- switch (game.currentState) {
-    case INITIAL:
